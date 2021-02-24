@@ -6,7 +6,7 @@ import '../stylesheets/PokemonList.css'
 
 class PokemonList extends React.Component {
     render() {
-    //    console.log(this.props.pokemons);
+       console.log(this.props.pokemons);
       const item = this.props.pokemons.map((pokemonItem,i)=>{return(
         
            <li className="list"  key={i}>
@@ -17,7 +17,7 @@ class PokemonList extends React.Component {
       return (
         <div>
             <h3>Mi lista de pokemons</h3>
-          <ul>{item}</ul>
+            <ul>{item}</ul>
         </div>
       );
     }

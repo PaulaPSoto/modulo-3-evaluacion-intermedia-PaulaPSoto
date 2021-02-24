@@ -11,7 +11,11 @@ const Pokemon =(props)=>{
        });
     return(
         <article>
-
+          <img 
+          className="sectionTwo__img"
+          src={props.pokemonProp.url}
+          alt="pokemon image"
+          title="pokemon image"/>
             <h2>{props.pokemonProp.name}</h2>
             <h4>Tipos</h4>
             <ul>
