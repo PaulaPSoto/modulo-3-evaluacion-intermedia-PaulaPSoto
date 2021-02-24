@@ -8,10 +8,9 @@ class App extends React.Component {
        console.log("Todos los pokemons");
        console.log(pokemons);
       return (
-          <PokemonList pokemons={pokemons} />
-          
-      );
-      
+          <PokemonList pokemons={pokemons} /> 
+      ); 
     }
-  }
-  export default App;
+}
+
+export default App;

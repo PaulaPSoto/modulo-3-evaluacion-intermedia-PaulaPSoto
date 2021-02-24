@@ -1,7 +1,7 @@
 
 .card{
  border-radius: 10px;
-border: 1px solid #000000;
+ border: 1px solid #000000;
  background-color: lightblue;
  text-transform: capitalize;
  font-size: 10px;
@@ -10,7 +10,6 @@ border: 1px solid #000000;
 .imgPokemon{
     display:block;
     margin:auto;
-
 }
 
 .listtypes{
@@ -20,4 +19,8 @@ border: 1px solid #000000;
     background-color: lightslategray;
     margin-left: 5px;
      
+}
+
+.name{
+    text-align: center;
 }

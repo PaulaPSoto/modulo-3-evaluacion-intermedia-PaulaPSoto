@@ -6,9 +6,8 @@ import '../stylesheets/PokemonList.css'
 
 class PokemonList extends React.Component {
     render() {
-       console.log(this.props.pokemons);
+      console.log(this.props.pokemons);
       const item = this.props.pokemons.map((pokemonItem,i)=>{return(
-        
            <li className="list"  key={i}>
                { <Pokemon pokemonProp ={pokemonItem}  /> }
             </li>
@@ -21,5 +20,6 @@ class PokemonList extends React.Component {
         </div>
       );
     }
-  }
-  export default PokemonList;
+}
+
+export default PokemonList;
