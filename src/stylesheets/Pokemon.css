@@ -1,9 +1,23 @@
-.list{
-    list-style-type: none; 
-     
-}
+
 .card{
  border-radius: 10px;
 border: 1px solid #000000;
  background-color: lightblue;
+ text-transform: capitalize;
+ font-size: 10px;
+}
+
+.imgPokemon{
+    display:block;
+    margin:auto;
+
+}
+
+.listtypes{
+    
+    list-style-type: none; 
+    border-radius: 10px;
+    background-color: lightslategray;
+    margin-left: 5px;
+     
 }

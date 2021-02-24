@@ -17,7 +17,7 @@ class PokemonList extends React.Component {
       return (
         <div>
             <h3>Mi lista de pokemons</h3>
-            <ul>{item}</ul>
+            <ul className="gridList">{item}</ul>
         </div>
       );
     }
