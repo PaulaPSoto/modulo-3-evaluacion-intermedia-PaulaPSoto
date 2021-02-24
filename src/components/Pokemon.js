@@ -10,9 +10,9 @@ const Pokemon =(props)=>{
         
        });
     return(
-        <article>
+        <div className="card">
           <img 
-          className="sectionTwo__img"
+          
           src={props.pokemonProp.url}
           alt="pokemon image"
           title="pokemon image"/>
@@ -21,7 +21,7 @@ const Pokemon =(props)=>{
             <ul>
                 {itemTypes}
            </ul>
-        </article>
+        </div>
     )
 
 }
